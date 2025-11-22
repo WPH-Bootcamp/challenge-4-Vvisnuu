@@ -1,6 +1,9 @@
+'use strict';
+
 const prompt = require("prompt-sync")({ sigint: true });
 
 let todos = [];
+
 
 function generateUniqueId() {
   // TODO: Implementasi fungsi untuk menghasilkan ID unik
